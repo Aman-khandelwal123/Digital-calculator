@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   }
+   
+   body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   }
+   .main{
+    font-size: 50px;
+    padding: 5px;
+    background: rgb(41,41,56);
+    color: white;
+    border:none;
+   }
+
+   .buttons button {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    /* background: #fff; */
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.5);
+    margin: 6px 5px;
+    font-size: 24px;
+    font-family: sans-serif;
+    color: #555;
+    border-radius: 6px;
+    text-align: center;
+    line-height: 50px;
+    cursor: pointer;
+    outline: none;
+    border:none;
+}
+
+.cal {
+    width: 300px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0px -1px 6px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+}
+.cal input {
+    width: 100%;
+    text-align: right;
+    font-size: 22px;
+    font-family: cursive;
+    outline: none;
+    border: none;
+    box-shadow: inset 0px -1px 3px rgba(0, 0, 0, 0.5);
+    border-radius: 6px;
+    padding: 10px;
+    font-weight: 700;
+    color: #888;
+    letter-spacing: 1px;
+}
+.buttons {
+    padding: 10px 0px 0px 2px;
+}
+ 
+   button:hover{
+    background: blue;
+    /* transition: all 2s ease; */
+    color: #fff;
+   }
+   .btn-yellow{
+    background: rgb(245,146,62);
+    /* color: white; */
+   }
+   .btn-grey{
+    background: rgb(224,224,224);
+   }
+   .buttons .equal{
+    background:aqua;
+    width: 55px;
+    height: 50px;
+    display: inline-block;
+    color: #fff;
+   }
+ .buttons .clear{
+    background:green;
+    width: 116px;
+    height: 50px;
+    display: inline-block;
+    color: #fff;
+   }
